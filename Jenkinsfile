@@ -2,7 +2,7 @@ pipeline {
   agent any 
   environment { 
     IMAGE_NAME = 'althaffrl/simple-app' 
-    REGISTRY_CREDENTIALS = 'dockerhub-credentials' 
+    REGISTRY_CREDENTIALS = 'dockerhub-credentials1' 
   } 
   stages { 
     stage('Checkout') { steps { checkout scm } } 
